@@ -4,6 +4,8 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 
 [dev-packages]
+autopep8 = "*"
+pylint = "*"
 
 [packages]
 tensorflow = "*"
@@ -11,4 +13,4 @@ matplotlib = "*"
 keras = "*"
 
 [requires]
-python_version = "3.6"
+python_version = "3.7"

@@ -6,8 +6,8 @@ mnist = tf.keras.datasets.mnist
 (x_train, y_train), (x_test, y_test) = mnist.load_data()
 
 # matplotlib to plot the 0th index training item
-plt.imshow(x_train[0])
-plt.show()
+# plt.imshow(x_train[0])
+# plt.show()
 
 # Normalizing data has big impact on results
 x_train = tf.keras.utils.normalize(x_train, axis=1)
